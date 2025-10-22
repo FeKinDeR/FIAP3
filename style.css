@@ -42,17 +42,22 @@ body {
   font-weight: bold;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+.nav-links a {
+  background-color: #2d7a2d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
+.nav-links a:hover {
+  background-color: #46a049;
+  transform: scale(1.05);
 }
+
 
 .menu-toggle {
   display: none;
